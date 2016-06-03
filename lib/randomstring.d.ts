@@ -9,7 +9,8 @@ export enum Charset {
     alphanumeric = 1,
     numeric,
     alphabetic,
-    hex
+    hex,
+    charset
 }
 
 export enum Capitalization {
