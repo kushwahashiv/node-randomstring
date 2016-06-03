@@ -1,4 +1,4 @@
-export interface Options<T> {
+export interface Options {
     length?: number;
     charset?: Charset;
     capitalization?: Capitalization;
@@ -18,4 +18,4 @@ export enum Capitalization {
     lowercase
 }
 
-export declare function generate(options?: Options<Object | number >): string;
+export declare function Generate(options?: Options | number | Object ): string;
